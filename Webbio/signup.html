@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up - Biography Website</title>
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/signup.css">
+
+ 
+
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">Biography Inc.</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#participants">Participants</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="signup.html" class="active">Sign Up</a></li>
+    </ul>
+  </nav>
+
+  <!-- Sign-Up Form Section -->
+  <div class="signup-container">
+    <h2>Sign Up</h2>
+    <form action="submit_signup.php" method="post">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Create a password" required>
+
+      <label for="confirm-password">Confirm Password</label>
+      <input type="password" id="confirm-password" name="confirm_password" placeholder="Confirm your password" required>
+
+      <input type="submit" value="Sign Up">
+    </form>
+    <div class="footer-link">
+      <p>Already have an account? <a href="login.html">Log In</a></p>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-content">
+        <p>&copy; 2024 Biography Inc.</p>
+        <ul class="social-media">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+        </ul>
+        <p>Contact: <a href="mailto:info@biographywebsite.com">info@biographywebsite.com</a></p>
+    </div>
+</footer>
+</body>
+</html>

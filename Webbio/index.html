@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biography Inc</title>
+  <link rel="stylesheet" href="css/navbar.css">
+  <!-- Add favicon -->
+  <link rel="icon" href="images/vu.jpg" type="image/jpeg">
+  <style>
+    /* Additional CSS for circular profile images */
+    .blog-card img {
+      width: 150px; /* Fixed width for profile pictures */
+      height: 150px; /* Fixed height for profile pictures */
+      border-radius: 50%; /* Makes the image circular */
+      object-fit: cover; /* Ensures the image is cropped correctly */
+      margin: 0 auto; /* Center aligns the images */
+      display: block;
+    }
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+      gap: 20px;
+      padding: 20px;
+    }
+    .blog-card {
+      padding: 15px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      background: #fff;
+      border-radius: 8px;
+    }
+    .blog-card h3 {
+      margin: 10px 0; 
+    }
+    .blog-card p {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">Biography Inc.</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#participants">Participants</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+    <a href="signup.html" class="btn-signup">Join Us</a>
+  </nav>
+
+  <!-- Main Section -->
+  <!-- Main Section -->
+<section class="main-section">
+  <div class="content">
+    <h1>Welcome to Biography Inc!!</h1>
+    <p>
+      Discover inspiring stories of individuals who have achieved greatness and made an impact. 
+      Explore their journeys, accomplishments, and life lessons, and find motivation in their stories. 
+      Do you have a story to share? Join our community by creating an account and let the world hear about your unique experiences. 
+      Connect, inspire, and celebrate the diversity of human achievements. 
+      Start your journey with us today!
+    </p>
+    <a href="#participants" class="btn-contact">Meet Our Participants</a>
+    <a href="signup.html" class="btn-signup">Share Your Story</a>
+  </div>
+</section>
+
+
+  <!-- Participants Section -->
+  <section id="participants" class="blog-section">
+    <h2>Our Participants</h2>
+    <div class="blog-grid">
+      <!-- Participant Cards -->
+      <div class="blog-card">
+        <img src="C:\Users\LENOVO\OneDrive\Desktop\Webbio\images\nhial.jpeg" alt="nhial">
+        <h3>Nhial Andrew</h3>
+        <p>Inspiring leader in his field.</p>
+        <a href="pages/nhial.html">View Profile →</a>
+      </div>
+      <div class="blog-card">
+        <img src="C:\Users\LENOVO\OneDrive\Desktop\Webbio\images\james.jpeg" alt="Bara James">
+        <h3>Bara James</h3>
+        <p>Dedicated to making a difference.</p>
+        <a href="pages/james.html">View Profile →</a>
+      </div>
+      <div class="blog-card">
+        <img src="C:\Users\LENOVO\OneDrive\Desktop\Webbio\images\abdul.jpeg" alt="Abdulkadir Mohamed">
+        <h3>Abdulkadir Mohamed</h3>
+        <p>Inspiring leader in his field.</p>
+        <a href="pages/abdul.html">View Profile →</a>
+      </div>
+      <div class="blog-card">
+        <img src="C:\Users\LENOVO\OneDrive\Desktop\Webbio\images\bech.jpeg" alt="Daniel Bech">
+        <h3>Daniel Bech</h3>
+        <p>Dedicated to making a difference.</p>
+        <a href="pages/bech.html">View Profile →</a>
+      </div>
+      <div class="blog-card">
+        <img src="C:\Users\LENOVO\OneDrive\Desktop\Webbio\images\moha.jpeg" alt="Shaakir Mohamuud">
+        <h3>Shaakir Mohamuud</h3>
+        <p>Inspiring leader in his field.</p>
+        <a href="pages/moha.html">View Profile →</a>
+      </div>
+      <div class="blog-card">
+        <img src="C:\Users\LENOVO\OneDrive\Desktop\Webbio\images\okello.jpeg" alt="Okello Daniel">
+        <h3>Okello Daniel</h3>
+        <p>Dedicated to making a difference.</p>
+        <a href="pages/okello.html">View Profile →</a>
+      </div>
+      <div class="blog-card">
+        <img src="C:\Users\LENOVO\OneDrive\Desktop\Webbio\images\otim.jpeg" alt="Otim Daniel">
+        <h3>Otim Daniel</h3>
+        <p>Inspiring leader in his field.</p>
+        <a href="pages/otim.html">View Profile →</a>
+      </div>
+      <div class="blog-card">
+        <img src="C:\Users\LENOVO\OneDrive\Desktop\Webbio\images\davis.jpeg" alt="Kwesiga Davis">
+        <h3>Kwesiga Davis</h3>
+        <p>Dedicated to making a difference.</p>
+        <a href="pages/davis.html">View Profile →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-content">
+        <p>&copy; 2024 Biography Inc.</p>
+        <ul class="social-media">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+        </ul>
+        <p>Contact: <a href="mailto:info@biographywebsite.com">info@biographywebsite.com</a></p>
+    </div>
+</footer>
+</body>
+</html>

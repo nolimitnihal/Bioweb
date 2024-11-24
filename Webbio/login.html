@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Biography Website</title>
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/login.css">
+  
+ 
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">Biography Inc.</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#participants">Participants</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="signup.html">Sign Up</a></li>
+    </ul>    
+  </nav>
+
+  <!-- Login Form Section -->
+  <div class="login-container">
+    <h2>Log In</h2>
+    <form action="submit_login.php" method="post">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+      <input type="submit" value="Log In">
+    </form>
+    <div class="footer-link">
+      <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-content">
+        <p>&copy; 2024 Biography Inc.</p>
+        <ul class="social-media">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+        </ul>
+        <p>Contact: <a href="mailto:info@biographywebsite.com">info@biographywebsite.com</a></p>
+    </div>
+</footer>
+</body>
+</html>

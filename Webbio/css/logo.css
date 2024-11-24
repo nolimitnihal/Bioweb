@@ -1,0 +1,16 @@
+/* Add shadow, hover effect, and slight rotation */
+#logo {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;         /* Circle shape for the logo */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Drop shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s; /* Smooth animation */
+}
+
+/* Hover effect */
+#logo:hover {
+    transform: scale(1.1) rotate(5deg); /* Enlarge and slightly rotate on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}

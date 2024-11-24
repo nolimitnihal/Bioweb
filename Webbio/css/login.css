@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  /* Login Form Container */
+  .login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Heading */
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-container label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .login-container input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Submit Button */
+  .login-container input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-container input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer Link */
+  .login-container .footer-link {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .login-container .footer-link a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  .login-container .footer-link a:hover {
+    text-decoration: underline;
+  }
+  
